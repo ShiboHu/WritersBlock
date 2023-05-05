@@ -1,0 +1,53 @@
+.single-story-cont{
+    display: flex;
+    flex-direction:column;
+    width: 70%;
+    gap: 10px;
+}
+.title-genre-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.single-story-genres{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.title-genre-cont .genre{
+    width: 90px;
+}
+
+.story-image{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 800px;
+}
+
+.author-like-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.author-cont{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.likes-cont{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+
+    margin-right: 3px;
+}
+
+.like-button-1 { 
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(179, 223, 236);
+}

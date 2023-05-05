@@ -1,0 +1,24 @@
+.comments-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.user-comment{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.comment-input { 
+    border-radius: 20px;
+    padding: 15px;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+.follower-name { 
+    font-size: 20px;
+    font-weight: bold;
+}
