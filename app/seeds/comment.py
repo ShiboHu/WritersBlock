@@ -18,11 +18,17 @@ def seed_comment():
         story_id = 2,
         comment = 'test comment'
     )
+    Comment4 = Comment(
+        user_id = 1,
+        story_id = 3,
+        comment = 'test comment1'
+    )
 
 
     db.session.add(Comment1)
     db.session.add(Comment2)
     db.session.add(Comment3)
+    db.session.add(Comment4)
     db.session.commit()
 
 
