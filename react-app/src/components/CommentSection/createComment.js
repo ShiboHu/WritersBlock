@@ -10,7 +10,8 @@ function CreateComment(storyId){
     const currentUser = useSelector(state => state.session.user)
     const { closeModal } = useModal()
 
-    console.log(currentUser)
+
+    //handel create comment
     const handleSubmit = async (e) => { 
         e.preventDefault();
 
@@ -30,6 +31,7 @@ function CreateComment(storyId){
     
     return(
         <>
+        //create comment jsx
             <h1>Comment</h1>
             <form onSubmit={handleSubmit}>
                 <label>
